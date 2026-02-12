@@ -10,15 +10,15 @@ body{
 }
 @font-face {
     font-family: titulo;
-    src: url(../fonts/Warpen.ttf);
+    src: url(./fonts/Warpen.ttf);
 }
 @font-face {
     font-family: normalLetra;
-    src: url(../fonts/Roboto-Light.ttf);
+    src: url(./fonts/Roboto-Light.ttf);
 }
 @font-face {
     font-family: recorrida;
-    src: url(../fonts/Roboto-ThinItalic.ttf);
+    src: url(./fonts/Roboto-ThinItalic.ttf);
 }
 #container{
     width: 100vw;

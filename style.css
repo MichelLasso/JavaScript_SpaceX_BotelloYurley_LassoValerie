@@ -5,7 +5,7 @@
 }
 @font-face {
     font-family: titulo;
-    src: url(../fonts/Warpen.ttf);
+    src: url(./fonts/Warpen.ttf);
 }
 #contenedor{
     width: 100vw;
