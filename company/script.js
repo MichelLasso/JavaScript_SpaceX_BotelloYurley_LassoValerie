@@ -88,10 +88,10 @@ class Links extends HTMLElement {
         ElFetch().then(companyDatos=>{
             this.innerHTML = `
             <div id="linksss">
-                <a href="${companyDatos.links.website}" class="linkRedes"><div id="webside"><img src="/company/img/icons8-web-50.png" alt="webSpacex" class="web"> Website</div></a>
-                <a href="${companyDatos.links.flickr}" class="linkRedes"><div id="twiterSpaceX"><img src="/company/img/icons8-flickr-externo-un-servicio-de-alojamiento-de-imagenes-y-servicio-de-alojamiento-de-video-logo-color-tal-revivo-24.png" alt="flickr" class="flickr"> Flickr</div></a>
-                <a href="${companyDatos.links.twitter}" class="linkRedes"><div id="twiterElon"><img src="/company/img/icons8-twitterx-50.png" alt="x" class="x"> X</div></a>
-                <a href="${companyDatos.links.elon_twitter}" class="linkRedes"><div id="photo"><img src="/company/img/icons8-twitterx-50.png" alt="x" class="x"> Elon Musk X</div></a>
+                <a href="${companyDatos.links.website}" class="linkRedes"><div id="webside"><img src="./img/icons8-web-50.png" alt="webSpacex" class="web"> Website</div></a>
+                <a href="${companyDatos.links.flickr}" class="linkRedes"><div id="twiterSpaceX"><img src="./img/icons8-flickr-externo-un-servicio-de-alojamiento-de-imagenes-y-servicio-de-alojamiento-de-video-logo-color-tal-revivo-24.png" alt="flickr" class="flickr"> Flickr</div></a>
+                <a href="${companyDatos.links.twitter}" class="linkRedes"><div id="twiterElon"><img src="./img/icons8-twitterx-50.png" alt="x" class="x"> X</div></a>
+                <a href="${companyDatos.links.elon_twitter}" class="linkRedes"><div id="photo"><img src="./img/icons8-twitterx-50.png" alt="x" class="x"> Elon Musk X</div></a>
             </div>`;
         })
     }
@@ -107,11 +107,11 @@ class BarraAB extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `
             <div id="barraazul">
-                <a href="/index.html"><img id="image" src="/SPACE-X/img/house-svgrepo-com.svg" alt="icon" class="icon"></a>
-                <a href="/SPACE-X/Rockets/index.html"><img id="image1" src="/SPACE-X/img/rocket (3).svg" alt="icon" class="icon"></a>
-                <a href="/SPACE-X/Capsules/index.html"><img id="image2" src="/SPACE-X/img/capsula icon.svg" alt="icon" class="icon"></a>
-                <a href="/company/index.html"><img id="image3" src="/SPACE-X/img/company-svgrepo-com.svg" alt="icon" class="icon"></a>
-                <a href="/SPACE-X/history/index.html"><img id="image4" src="/SPACE-X/img/history-log-manuscript-svgrepo-com.svg" alt="" class="icon"></a>
+                <a href="../index.html"><img id="image" src="../img/house-svgrepo-com.svg" alt="icon" class="icon"></a>
+                <a href="../Rockets/index.html"><img id="image1" src="../img/rocket (3).svg" alt="icon" class="icon"></a>
+                <a href="../Capsules/index.html"><img id="image2" src="../img/capsula icon.svg" alt="icon" class="icon"></a>
+                <a href="index.html"><img id="image3" src="../img/company-svgrepo-com.svg" alt="icon" class="icon"></a>
+                <a href="../history/index.html"><img id="image4" src="../img/history-log-manuscript-svgrepo-com.svg" alt="" class="icon"></a>
             </div>
             <div id="linea"></div>
         `;
